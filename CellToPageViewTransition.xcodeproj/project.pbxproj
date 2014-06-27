@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041BA29E195D5C45005A3EA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041BA29D195D5C45005A3EA2 /* Foundation.framework */; };
+		041BA2A0195D5C45005A3EA2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041BA29F195D5C45005A3EA2 /* CoreGraphics.framework */; };
+		041BA2A2195D5C45005A3EA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041BA2A1195D5C45005A3EA2 /* UIKit.framework */; };
+		041BA2A8195D5C45005A3EA2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 041BA2A6195D5C45005A3EA2 /* InfoPlist.strings */; };
+		041BA2AA195D5C45005A3EA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 041BA2A9195D5C45005A3EA2 /* main.m */; };
+		041BA2AE195D5C45005A3EA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 041BA2AD195D5C45005A3EA2 /* AppDelegate.m */; };
+		041BA2B1195D5C45005A3EA2 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041BA2AF195D5C45005A3EA2 /* Main_iPhone.storyboard */; };
+		041BA2B4195D5C45005A3EA2 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041BA2B2195D5C45005A3EA2 /* Main_iPad.storyboard */; };
+		041BA2B9195D5C46005A3EA2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041BA2B8195D5C46005A3EA2 /* Images.xcassets */; };
+		041BA2C0195D5C46005A3EA2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041BA2BF195D5C46005A3EA2 /* XCTest.framework */; };
+		041BA2C1195D5C46005A3EA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041BA29D195D5C45005A3EA2 /* Foundation.framework */; };
+		041BA2C2195D5C46005A3EA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041BA2A1195D5C45005A3EA2 /* UIKit.framework */; };
+		041BA2CA195D5C46005A3EA2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 041BA2C8195D5C46005A3EA2 /* InfoPlist.strings */; };
+		041BA2CC195D5C46005A3EA2 /* CellToPageViewTransitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 041BA2CB195D5C46005A3EA2 /* CellToPageViewTransitionTests.m */; };
+		041BA2DC195D5CDF005A3EA2 /* BaseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 041BA2D7195D5CDF005A3EA2 /* BaseAnimation.m */; };
+		041BA2E1195D5D38005A3EA2 /* UIImage+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 041BA2E0195D5D38005A3EA2 /* UIImage+Utils.m */; };
+		041BA2E4195D5D7A005A3EA2 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041BA2E3195D5D7A005A3EA2 /* TableViewController.m */; };
+		041BA2E7195D5D8E005A3EA2 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041BA2E6195D5D8E005A3EA2 /* PageViewController.m */; };
+		046A5D1B195D6AF3008E5D67 /* CellToPageViewAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 046A5D17195D6AF3008E5D67 /* CellToPageViewAnimation.m */; };
+		046A5D1C195D6AF3008E5D67 /* PageViewToCellAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 046A5D19195D6AF3008E5D67 /* PageViewToCellAnimation.m */; };
+		C8084DEFA1B84191ABB8F906 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB779A1E5AA14F378D30B5FE /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		041BA2C3195D5C46005A3EA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041BA292195D5C45005A3EA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 041BA299195D5C45005A3EA2;
+			remoteInfo = CellToPageViewTransition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		041BA29A195D5C45005A3EA2 /* CellToPageViewTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CellToPageViewTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		041BA29D195D5C45005A3EA2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		041BA29F195D5C45005A3EA2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		041BA2A1195D5C45005A3EA2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		041BA2A5195D5C45005A3EA2 /* CellToPageViewTransition-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CellToPageViewTransition-Info.plist"; sourceTree = "<group>"; };
+		041BA2A7195D5C45005A3EA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		041BA2A9195D5C45005A3EA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		041BA2AB195D5C45005A3EA2 /* CellToPageViewTransition-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CellToPageViewTransition-Prefix.pch"; sourceTree = "<group>"; };
+		041BA2AC195D5C45005A3EA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		041BA2AD195D5C45005A3EA2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		041BA2B0195D5C45005A3EA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		041BA2B3195D5C45005A3EA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		041BA2B8195D5C46005A3EA2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		041BA2BE195D5C46005A3EA2 /* CellToPageViewTransitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CellToPageViewTransitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		041BA2BF195D5C46005A3EA2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		041BA2C7195D5C46005A3EA2 /* CellToPageViewTransitionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CellToPageViewTransitionTests-Info.plist"; sourceTree = "<group>"; };
+		041BA2C9195D5C46005A3EA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		041BA2CB195D5C46005A3EA2 /* CellToPageViewTransitionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellToPageViewTransitionTests.m; sourceTree = "<group>"; };
+		041BA2D6195D5CDF005A3EA2 /* BaseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseAnimation.h; sourceTree = "<group>"; };
+		041BA2D7195D5CDF005A3EA2 /* BaseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseAnimation.m; sourceTree = "<group>"; };
+		041BA2DF195D5D38005A3EA2 /* UIImage+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utils.h"; sourceTree = "<group>"; };
+		041BA2E0195D5D38005A3EA2 /* UIImage+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utils.m"; sourceTree = "<group>"; };
+		041BA2E2195D5D7A005A3EA2 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		041BA2E3195D5D7A005A3EA2 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		041BA2E5195D5D8E005A3EA2 /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
+		041BA2E6195D5D8E005A3EA2 /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
+		046A5D16195D6AF3008E5D67 /* CellToPageViewAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellToPageViewAnimation.h; sourceTree = "<group>"; };
+		046A5D17195D6AF3008E5D67 /* CellToPageViewAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellToPageViewAnimation.m; sourceTree = "<group>"; };
+		046A5D18195D6AF3008E5D67 /* PageViewToCellAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewToCellAnimation.h; sourceTree = "<group>"; };
+		046A5D19195D6AF3008E5D67 /* PageViewToCellAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewToCellAnimation.m; sourceTree = "<group>"; };
+		9B179688DA5240AFB67E2220 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		DB779A1E5AA14F378D30B5FE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		041BA297195D5C45005A3EA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041BA2A0195D5C45005A3EA2 /* CoreGraphics.framework in Frameworks */,
+				041BA2A2195D5C45005A3EA2 /* UIKit.framework in Frameworks */,
+				041BA29E195D5C45005A3EA2 /* Foundation.framework in Frameworks */,
+				C8084DEFA1B84191ABB8F906 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041BA2BB195D5C46005A3EA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041BA2C0195D5C46005A3EA2 /* XCTest.framework in Frameworks */,
+				041BA2C2195D5C46005A3EA2 /* UIKit.framework in Frameworks */,
+				041BA2C1195D5C46005A3EA2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041BA291195D5C45005A3EA2 = {
+			isa = PBXGroup;
+			children = (
+				041BA2A3195D5C45005A3EA2 /* CellToPageViewTransition */,
+				041BA2C5195D5C46005A3EA2 /* CellToPageViewTransitionTests */,
+				041BA29C195D5C45005A3EA2 /* Frameworks */,
+				041BA29B195D5C45005A3EA2 /* Products */,
+				9B179688DA5240AFB67E2220 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		041BA29B195D5C45005A3EA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				041BA29A195D5C45005A3EA2 /* CellToPageViewTransition.app */,
+				041BA2BE195D5C46005A3EA2 /* CellToPageViewTransitionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		041BA29C195D5C45005A3EA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				041BA29D195D5C45005A3EA2 /* Foundation.framework */,
+				041BA29F195D5C45005A3EA2 /* CoreGraphics.framework */,
+				041BA2A1195D5C45005A3EA2 /* UIKit.framework */,
+				041BA2BF195D5C46005A3EA2 /* XCTest.framework */,
+				DB779A1E5AA14F378D30B5FE /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		041BA2A3195D5C45005A3EA2 /* CellToPageViewTransition */ = {
+			isa = PBXGroup;
+			children = (
+				041BA2AC195D5C45005A3EA2 /* AppDelegate.h */,
+				041BA2AD195D5C45005A3EA2 /* AppDelegate.m */,
+				041BA2AF195D5C45005A3EA2 /* Main_iPhone.storyboard */,
+				041BA2B2195D5C45005A3EA2 /* Main_iPad.storyboard */,
+				041BA2DF195D5D38005A3EA2 /* UIImage+Utils.h */,
+				041BA2E0195D5D38005A3EA2 /* UIImage+Utils.m */,
+				041BA2D5195D5CDF005A3EA2 /* NavigationAnimation */,
+				041BA2B8195D5C46005A3EA2 /* Images.xcassets */,
+				041BA2A4195D5C45005A3EA2 /* Supporting Files */,
+				041BA2E2195D5D7A005A3EA2 /* TableViewController.h */,
+				041BA2E3195D5D7A005A3EA2 /* TableViewController.m */,
+				041BA2E5195D5D8E005A3EA2 /* PageViewController.h */,
+				041BA2E6195D5D8E005A3EA2 /* PageViewController.m */,
+			);
+			path = CellToPageViewTransition;
+			sourceTree = "<group>";
+		};
+		041BA2A4195D5C45005A3EA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				041BA2A5195D5C45005A3EA2 /* CellToPageViewTransition-Info.plist */,
+				041BA2A6195D5C45005A3EA2 /* InfoPlist.strings */,
+				041BA2A9195D5C45005A3EA2 /* main.m */,
+				041BA2AB195D5C45005A3EA2 /* CellToPageViewTransition-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		041BA2C5195D5C46005A3EA2 /* CellToPageViewTransitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				041BA2CB195D5C46005A3EA2 /* CellToPageViewTransitionTests.m */,
+				041BA2C6195D5C46005A3EA2 /* Supporting Files */,
+			);
+			path = CellToPageViewTransitionTests;
+			sourceTree = "<group>";
+		};
+		041BA2C6195D5C46005A3EA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				041BA2C7195D5C46005A3EA2 /* CellToPageViewTransitionTests-Info.plist */,
+				041BA2C8195D5C46005A3EA2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		041BA2D5195D5CDF005A3EA2 /* NavigationAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				041BA2D6195D5CDF005A3EA2 /* BaseAnimation.h */,
+				041BA2D7195D5CDF005A3EA2 /* BaseAnimation.m */,
+				046A5D16195D6AF3008E5D67 /* CellToPageViewAnimation.h */,
+				046A5D17195D6AF3008E5D67 /* CellToPageViewAnimation.m */,
+				046A5D18195D6AF3008E5D67 /* PageViewToCellAnimation.h */,
+				046A5D19195D6AF3008E5D67 /* PageViewToCellAnimation.m */,
+			);
+			path = NavigationAnimation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		041BA299195D5C45005A3EA2 /* CellToPageViewTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041BA2CF195D5C46005A3EA2 /* Build configuration list for PBXNativeTarget "CellToPageViewTransition" */;
+			buildPhases = (
+				FE71CC5A883E4BB8B4EF312D /* Check Pods Manifest.lock */,
+				041BA296195D5C45005A3EA2 /* Sources */,
+				041BA297195D5C45005A3EA2 /* Frameworks */,
+				041BA298195D5C45005A3EA2 /* Resources */,
+				F0B9A359A8154E06BB4E4959 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CellToPageViewTransition;
+			productName = CellToPageViewTransition;
+			productReference = 041BA29A195D5C45005A3EA2 /* CellToPageViewTransition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		041BA2BD195D5C46005A3EA2 /* CellToPageViewTransitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041BA2D2195D5C46005A3EA2 /* Build configuration list for PBXNativeTarget "CellToPageViewTransitionTests" */;
+			buildPhases = (
+				041BA2BA195D5C46005A3EA2 /* Sources */,
+				041BA2BB195D5C46005A3EA2 /* Frameworks */,
+				041BA2BC195D5C46005A3EA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				041BA2C4195D5C46005A3EA2 /* PBXTargetDependency */,
+			);
+			name = CellToPageViewTransitionTests;
+			productName = CellToPageViewTransitionTests;
+			productReference = 041BA2BE195D5C46005A3EA2 /* CellToPageViewTransitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		041BA292195D5C45005A3EA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Jack Shi";
+				TargetAttributes = {
+					041BA2BD195D5C46005A3EA2 = {
+						TestTargetID = 041BA299195D5C45005A3EA2;
+					};
+				};
+			};
+			buildConfigurationList = 041BA295195D5C45005A3EA2 /* Build configuration list for PBXProject "CellToPageViewTransition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 041BA291195D5C45005A3EA2;
+			productRefGroup = 041BA29B195D5C45005A3EA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				041BA299195D5C45005A3EA2 /* CellToPageViewTransition */,
+				041BA2BD195D5C46005A3EA2 /* CellToPageViewTransitionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		041BA298195D5C45005A3EA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041BA2B4195D5C45005A3EA2 /* Main_iPad.storyboard in Resources */,
+				041BA2B9195D5C46005A3EA2 /* Images.xcassets in Resources */,
+				041BA2B1195D5C45005A3EA2 /* Main_iPhone.storyboard in Resources */,
+				041BA2A8195D5C45005A3EA2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041BA2BC195D5C46005A3EA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041BA2CA195D5C46005A3EA2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F0B9A359A8154E06BB4E4959 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE71CC5A883E4BB8B4EF312D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		041BA296195D5C45005A3EA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041BA2DC195D5CDF005A3EA2 /* BaseAnimation.m in Sources */,
+				041BA2E1195D5D38005A3EA2 /* UIImage+Utils.m in Sources */,
+				041BA2E7195D5D8E005A3EA2 /* PageViewController.m in Sources */,
+				041BA2AE195D5C45005A3EA2 /* AppDelegate.m in Sources */,
+				041BA2AA195D5C45005A3EA2 /* main.m in Sources */,
+				041BA2E4195D5D7A005A3EA2 /* TableViewController.m in Sources */,
+				046A5D1C195D6AF3008E5D67 /* PageViewToCellAnimation.m in Sources */,
+				046A5D1B195D6AF3008E5D67 /* CellToPageViewAnimation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041BA2BA195D5C46005A3EA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041BA2CC195D5C46005A3EA2 /* CellToPageViewTransitionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		041BA2C4195D5C46005A3EA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 041BA299195D5C45005A3EA2 /* CellToPageViewTransition */;
+			targetProxy = 041BA2C3195D5C46005A3EA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		041BA2A6195D5C45005A3EA2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041BA2A7195D5C45005A3EA2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		041BA2AF195D5C45005A3EA2 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041BA2B0195D5C45005A3EA2 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		041BA2B2195D5C45005A3EA2 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041BA2B3195D5C45005A3EA2 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		041BA2C8195D5C46005A3EA2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041BA2C9195D5C46005A3EA2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		041BA2CD195D5C46005A3EA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		041BA2CE195D5C46005A3EA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		041BA2D0195D5C46005A3EA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B179688DA5240AFB67E2220 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CellToPageViewTransition/CellToPageViewTransition-Prefix.pch";
+				INFOPLIST_FILE = "CellToPageViewTransition/CellToPageViewTransition-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		041BA2D1195D5C46005A3EA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B179688DA5240AFB67E2220 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CellToPageViewTransition/CellToPageViewTransition-Prefix.pch";
+				INFOPLIST_FILE = "CellToPageViewTransition/CellToPageViewTransition-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		041BA2D3195D5C46005A3EA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CellToPageViewTransition.app/CellToPageViewTransition";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CellToPageViewTransition/CellToPageViewTransition-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CellToPageViewTransitionTests/CellToPageViewTransitionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		041BA2D4195D5C46005A3EA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CellToPageViewTransition.app/CellToPageViewTransition";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CellToPageViewTransition/CellToPageViewTransition-Prefix.pch";
+				INFOPLIST_FILE = "CellToPageViewTransitionTests/CellToPageViewTransitionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		041BA295195D5C45005A3EA2 /* Build configuration list for PBXProject "CellToPageViewTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041BA2CD195D5C46005A3EA2 /* Debug */,
+				041BA2CE195D5C46005A3EA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		041BA2CF195D5C46005A3EA2 /* Build configuration list for PBXNativeTarget "CellToPageViewTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041BA2D0195D5C46005A3EA2 /* Debug */,
+				041BA2D1195D5C46005A3EA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		041BA2D2195D5C46005A3EA2 /* Build configuration list for PBXNativeTarget "CellToPageViewTransitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041BA2D3195D5C46005A3EA2 /* Debug */,
+				041BA2D4195D5C46005A3EA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 041BA292195D5C45005A3EA2 /* Project object */;
+}
