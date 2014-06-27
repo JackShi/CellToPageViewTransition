@@ -1,4 +1,4 @@
 CellToPageViewTransition
 ========================
 
-iOS 7 Weather APP like navigation controller transition
+This is a demo code which present a custom navigation transition like iOS7 Weather APP transition.  
